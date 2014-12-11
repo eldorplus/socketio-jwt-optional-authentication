@@ -1,3 +1,5 @@
+### Original is here: https://github.com/ddamerell53/socketio-jwt but had to tweak to fit a custom need.
+
 Authenticate socket.io incoming connections with JWTs. This is useful if you are build a single page application and you are not using cookies as explained in this blog post: [Cookies vs Tokens. Getting auth right with Angular.JS](http://blog.auth0.com/2014/01/07/angularjs-authentication-with-cookies-vs-token/).
 
 ## Installation
