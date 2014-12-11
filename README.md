@@ -46,7 +46,8 @@ var socketioJwt   = require("socketio-jwt");
 //// With socket.io < 1.0 ////
 io.set('authorization', socketioJwt.authorize({
   secret: 'your secret or public key',
-  handshake: true
+  handshake: true,
+  required : false // defaults to true
 }));
 //////////////////////////////
 
